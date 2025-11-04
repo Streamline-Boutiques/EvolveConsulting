@@ -9,13 +9,13 @@ import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Testimonials from "./pages/Testimonials";
 import { Toaster } from './components/ui/toaster';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* 👇 Added basename for GitHub Pages */}
+      <BrowserRouter basename="/EvolveConsulting">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -24,7 +24,6 @@ function App() {
           <Route path="/business-development" element={<BusinessDevelopment />} />
           <Route path="/leadership-counseling" element={<LeadershipCounseling />} />
           <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
