@@ -62,7 +62,8 @@
   "start": "craco start",
   "build": "craco build",
   "test": "craco test",
-  "deploy": "npm run build && rm -rf ../docs && mkdir ../docs && cp -r build/* ../docs/"
+  "deploy": "npm run build && rm -rf ../docs/* && cp -r build/* ../docs/ && cd .. && git add docs && git commit -m 'Deploy site' && git push origin master && cd frontend"
+
 
   },
   "browserslist": {
