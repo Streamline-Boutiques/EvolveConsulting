@@ -14,7 +14,8 @@ import { Toaster } from './components/ui/toaster';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* 👇 Added basename for GitHub Pages */}
+      <BrowserRouter basename="/EvolveConsulting">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
