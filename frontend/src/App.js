@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import Services from './pages/Services';
@@ -7,6 +7,7 @@ import BusinessDevelopment from './pages/BusinessDevelopment';
 import LeadershipCounseling from './pages/LeadershipCounseling';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
+import Testimonials from './pages/Testimonials'; // ✅ Add this line
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { Toaster } from './components/ui/toaster';
@@ -14,8 +15,8 @@ import { Toaster } from './components/ui/toaster';
 function App() {
   return (
     <div className="App">
-      {/* 👇 Added basename for GitHub Pages */}
-      <BrowserRouter basename="/EvolveConsulting">
+      {/* ✅ HashRouter fixes routing on GitHub Pages */}
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -25,10 +26,11 @@ function App() {
           <Route path="/leadership-counseling" element={<LeadershipCounseling />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/testimonials" element={<Testimonials />} /> {/* ✅ Add route */}
         </Routes>
         <Footer />
         <Toaster />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
