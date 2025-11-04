@@ -60,7 +60,7 @@ const TechnicalAdvisory = () => {
             </div>
             <div className="relative">
               <img
-                src="/images/japan university ed.jpg"
+                src="/images/barcelona.jpg"
                 alt="Technical Advisory"
                 className="rounded-2xl shadow-2xl"
               />

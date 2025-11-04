@@ -60,7 +60,7 @@ const BusinessDevelopment = () => {
             </div>
             <div className="relative">
               <img
-                src="/images/japan university ed.jpg"
+                src="/images/barcelona.jpg"
                 alt="Business Development"
                 className="rounded-2xl shadow-2xl"
               />
@@ -110,7 +110,7 @@ const BusinessDevelopment = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <img
-                src="/images/japan university ed.jpg"
+                src="/images/barcelona.jpg"
                 alt="Partnership"
                 className="rounded-2xl shadow-2xl"
               />

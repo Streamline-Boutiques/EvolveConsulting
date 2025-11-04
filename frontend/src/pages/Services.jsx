@@ -34,7 +34,7 @@ const Services = () => {
         'Strategic planning',
       ],
       link: '/business-development',
-      image: "/images/japan university ed.jpg"
+      image: "/images/barcelona.jpg"
     },
     {
       icon: Brain,
@@ -49,7 +49,7 @@ const Services = () => {
         'Change management',
       ],
       link: '/leadership-counseling',
-      image: "/images/japan university ed.jpg",
+      image: "/images/barcelona.jpg",
     },
   ];
 
