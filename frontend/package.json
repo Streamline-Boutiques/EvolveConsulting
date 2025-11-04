@@ -62,11 +62,11 @@
   "start": "craco start",
   "build": "craco build",
   "test": "craco test",
-<<<<<<< HEAD
+
   "deploy": "npm run build && rmdir /s /q ..\\docs 2>nul && mkdir ..\\docs && xcopy build ..\\docs /E /H /C /I /Y && cd .. && git add docs && git commit -m \"Deploy site\" && git push origin master && cd frontend"
-=======
-  "deploy": "npm run build && rm -rf ../docs/* && cp -r build/* ../docs/ && cd .. && git add docs && git commit -m 'Deploy site' && git push origin master && cd frontend"
->>>>>>> 204585a6994c6ee22acb99e14435fbd3fdfc7411
+
+ 
+
 
 
   },
