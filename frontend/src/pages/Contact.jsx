@@ -122,7 +122,7 @@ const Contact = () => {
               {/* Image */}
               <div className="mt-12 relative">
                 <img
-                  src="https://images.pexels.com/photos/2280568/pexels-photo-2280568.jpeg"
+                  src="/images/ed jule.jpg"
                   alt="Contact Us"
                   className="rounded-2xl shadow-xl w-full h-64 object-cover"
                 />

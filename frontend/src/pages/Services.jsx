@@ -34,7 +34,7 @@ const Services = () => {
         'Strategic planning',
       ],
       link: '/business-development',
-      image: 'https://images.pexels.com/photos/8657373/pexels-photo-8657373.jpeg',
+      image: "/image/japan university ed.jpg"
     },
     {
       icon: Brain,
@@ -49,7 +49,7 @@ const Services = () => {
         'Change management',
       ],
       link: '/leadership-counseling',
-      image: 'https://images.unsplash.com/photo-1707944746058-4da338d0f827?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxsYWJvcmF0b3J5JTIwcmVzZWFyY2h8ZW58MHx8fHwxNzYyMjQzMjQ4fDA&ixlib=rb-4.1.0&q=85',
+      image: "/image/japan university ed.jpg",
     },
   ];
 

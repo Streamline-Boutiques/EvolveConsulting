@@ -60,7 +60,7 @@ const LeadershipCounseling = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1707944746058-4da338d0f827?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxsYWJvcmF0b3J5JTIwcmVzZWFyY2h8ZW58MHx8fHwxNzYyMjQzMjQ4fDA&ixlib=rb-4.1.0&q=85"
+                src="/image/japan university ed.jpg"
                 alt="Leadership Counseling"
                 className="rounded-2xl shadow-2xl"
               />
@@ -126,7 +126,7 @@ const LeadershipCounseling = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/6285383/pexels-photo-6285383.jpeg"
+                src="/image/japan university ed.jpg"
                 alt="Leadership"
                 className="rounded-2xl shadow-2xl"
               />
