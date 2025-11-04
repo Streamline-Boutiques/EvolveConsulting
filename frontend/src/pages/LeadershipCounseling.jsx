@@ -60,7 +60,7 @@ const LeadershipCounseling = () => {
             </div>
             <div className="relative">
               <img
-                src="/image/japan university ed.jpg"
+                src="/images/japan university ed.jpg"
                 alt="Leadership Counseling"
                 className="rounded-2xl shadow-2xl"
               />
@@ -126,7 +126,7 @@ const LeadershipCounseling = () => {
             </div>
             <div className="relative">
               <img
-                src="/image/japan university ed.jpg"
+                src="/images/japan university ed.jpg"
                 alt="Leadership"
                 className="rounded-2xl shadow-2xl"
               />
